@@ -1,0 +1,280 @@
+h3{
+	font-family: Rubik;
+}
+h5{
+	font-family: Ubuntu Condensed;
+	color: ;
+}
+
+/*utilities*/
+.tombol {
+	text-transform: uppercase;
+	border-radius: 40px;
+	font-weight: 500;
+}
+/*akhir utilities*/
+
+/*navbar*/
+.navbar{
+	position: relative;
+	z-index: 1;
+	font-size: 24;
+	padding-top: 20px;
+}
+
+/*dekstop version*/
+.nav-link{
+	text-transform: ;
+	font-family: Montserrat Alternates;
+	margin-right: 30px;
+}
+
+.navbar-brand, .nav-link{
+	color: white !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.nav-link:hover::after{
+			content: "";
+			display: block;
+			border-bottom: 3px solid white;
+			width: 50%;
+			margin : auto;
+			padding-bottom: 5px;
+			margin-bottom: -8px;
+}
+/*akhir desktop verion*/
+
+/*akhir navbar*/
+
+/*jumbotron*/
+.jumbotron{
+	background-image: url(https://cdn.pixabay.com/photo/2016/10/16/14/21/wedding-1745240_960_720.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: -75px;
+	height: 700px;
+	text-align: center;
+	padding-top: 200px;
+	font-family: Bree Serif;
+	color: white;
+}
+
+.jumbotron .line1 p {
+	padding-top: 50px;
+	font-size: 18px;
+}
+
+.ttd{
+	font-family: Dancing Script;
+	font-size: 16px;
+	padding-top: 5px;
+}
+/*akhir jumbotron*/
+
+/*Countdown*/
+#Countdown{
+	padding-top: 60px;
+	background-color: #0881a3;
+	height: 400px;
+	margin-top: -33px;
+	color: white;
+	font-family: Ubuntu Condensed;
+	margin-bottom: 30px;	
+}
+
+.count{
+	margin: 40px 0;
+}
+.countd{
+	display: inline-block;
+	width: 88px;
+	height: 140px;
+	border:5px solid;
+	margin: 20px 90px;
+	font-size: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.countd span{
+	display: block;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-left: 0px;
+
+}
+/*akhir Countdown*/
+
+/*profile*/
+.profile {
+	text-align: center;
+	min-height: 150px;
+	margin: 50px 0px;
+	padding: 200px 0px;
+	width: 98%;
+	padding-left: 20px;
+}
+
+.profile h3{
+	color: #63686e;
+}
+
+.profile p {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	font-family: Montserrat Alternates;
+	color: #393e46;
+}
+/*akhir profile*/
+
+/*pria & wanita*/
+.pw .img{
+	width: 450px;
+	height: 400px;
+	margin: 0px 30px;
+	border-radius: 50%;
+	border: 5px solid #ffff;
+	padding: 30px 40px;
+}
+
+
+.pw h5{
+	font-size: 30px;
+	font-weight: 100;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	color: #63686e
+}
+
+.pw p {
+	padding-top: 20px;
+	font-family: Montserrat Alternates;
+	color: #393e46;
+}
+/*akhir pria & wanita*/
+
+/*galeri slide*/
+
+#myCarousel{
+	padding-top: 50px;
+}
+
+
+.carousel-item{
+	height: 32rem;
+	background:#777;
+	background-position: center;
+	background-size: cover;
+}
+
+.carousel-item .container h3{
+	padding-top: 40px;
+}
+
+.overlay-image{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-position: center;
+	background-size: cover;
+}
+
+/*akhir galeri slide*/
+
+/*lokasi*/
+
+#lokasi h2{
+	padding-top: 150px;
+	padding-bottom: 100px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#lokasi p {
+	padding-top: 100px;
+	padding-bottom: 20px;
+	font-family: Montserrat Alternates;
+}
+
+#lokasi .img{
+	width: 450px;
+	height: 400px;
+	margin: 0px 30px;
+	border-radius: 50%;
+	padding: 30px 40px;
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+}
+
+.maps{
+	padding-top: 100px;
+}
+
+iframe{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+
+/*akhir Lokasi*/
+
+/*tampilkan pesan*/
+.section-comment{
+	padding-top: 100px;
+	background-color: ;
+	display: block;
+	padding-bottom: 100px;
+}
+
+.section-comment .carousel-item{
+	padding-top: 50px;
+	background-color: white;
+	height: auto;
+	position: relative;
+	width: 100%;
+	color: #0881a3;
+}
+.section-comment .carousel-item p {
+	font-size: 20px;
+	font-family: Cinzel;
+}
+
+.section-comment .carousel-item h3{
+	font-size: 80px;
+	font-family: Leckerli One;
+
+}
+
+/*akhir tampilkan pesan*/
+
+/*pesan untuk mempelai*/
+.pesan{
+	margin-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.pesan h3{
+	padding-bottom: 40px;
+}
+/*akhir pesan untuk mempelai
+
+/*footer*/
+footer{
+	background-color: #0881a3;
+	color: white;
+	height: 150px;
+	padding: 50px 0px;
+
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #ACACAC;
+}
